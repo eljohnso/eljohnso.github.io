@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'BigBlueTerm';
+    src: url(webfonts/bigblue_term.eot);
+    src: url(webfonts/bigblue_term.eot?#iefix) format('embedded-opentype'),
+         url(webfonts/bigblue_term.woff2) format('woff2'),
+         url(webfonts/bigblue_term.woff) format('woff'),
+         url(webfonts/bigblue_term.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'BigBlueTerm', monospace;
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    padding: 0 10px;
+    background-color: #333;
+    color: #c5c5c5;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+h1 {
+    color: #46932a;
+    font-size: 24px;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}

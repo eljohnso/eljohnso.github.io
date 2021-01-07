@@ -13,17 +13,17 @@ body {
     font-family: 'BigBlueTerm', monospace;
     margin: 40px auto;
     max-width: 650px;
-    line-height: 1.6;
+    line-height: 1.5;
     padding: 0 10px;
     background-color: #333;
     color: #c5c5c5;
-    font-size: 12px;
+    font-size: 75%;
     overflow: hidden;
 }
 
 h1 {
     color: #46932a;
-    font-size: 24px;
+    font-size: 2em;
 }
 
 h1, h2, h3 {
@@ -34,3 +34,12 @@ a {
     color: #ffffff;
 }
 
+@media (prefers-color-scheme: light) {
+    body {
+        color: #515151;
+        background-color: #eee;
+    }
+    a {
+        color: #444;
+    }
+}

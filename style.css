@@ -4,13 +4,15 @@ body {
     max-width: 650px;
     line-height: 1.6;
     font-size: 18px;
-    color: #444;
+    color: #222;
     padding: 0 10px
 }
 
 h1,h2,h3 {
     font-family: 'fira_sansregular', sans;
-    line-height: 1.2
+    line-height: 1.2;
+    border-bottom: 1px solid #222;
+    padding-bottom: 5px
 }
 
 @font-face {
